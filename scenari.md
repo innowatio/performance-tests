@@ -4,7 +4,6 @@
 > * Assumiamo che l’utente abbia a disposizione una connessione di rete con una
 >   larghezza di banda di circa 5Mib/s (varie fonti attestano attorno a questa
 >   cifra il valore medio nazionale).
-> * I limiti superiori si intendono al 95mo percentile.
 
 ---
 
@@ -30,7 +29,7 @@
 | ---------- | ------------ |
 | 90         | 3s           |
 | 95         | 6s           |
-| 99         | 12           |
+| 99         | 12s          |
 
 ---
 
