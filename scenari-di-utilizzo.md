@@ -1,9 +1,14 @@
 # Scenari di utilizzo dell’applicazione
 
 > **Premesse**
+>
 > * Assumiamo che l’utente abbia a disposizione una connessione di rete con una
 >   larghezza di banda di circa 5Mib/s (varie fonti attestano attorno a questa
 >   cifra il valore medio nazionale).
+>
+> * Per la definizione degli SLA considereremo le seguenti soglie percentili:
+>   * 84 (mediana + σ)
+>   * 98 (mediana + 2σ)
 
 ---
 
@@ -27,9 +32,8 @@
 
 | Percentile | Tempo limite |
 | ---------- | ------------ |
-| 90         | 3s           |
-| 95         | 6s           |
-| 99         | 12s          |
+| 84         | 3s           |
+| 98         | 6s           |
 
 ---
 
@@ -56,9 +60,8 @@
 
 | Percentile | Tempo limite |
 | ---------- | ------------ |
-| 90         | 4s           |
-| 95         | 8s           |
-| 99         | 16s          |
+| 84         | 4s           |
+| 98         | 8s           |
 
 ---
 
@@ -81,9 +84,8 @@
 
 | Percentile | Tempo limite |
 | ---------- | ------------ |
-| 90         | 3s           |
-| 95         | 6s           |
-| 99         | 12s          |
+| 84         | 3s           |
+| 98         | 6s           |
 
 ---
 
@@ -107,9 +109,8 @@
 
 | Percentile | Tempo limite |
 | ---------- | ------------ |
-| 90         | 4s           |
-| 95         | 8s           |
-| 99         | 16s          |
+| 84         | 4s           |
+| 98         | 8s           |
 
 ---
 
@@ -131,9 +132,8 @@
 
 | Percentile | Tempo limite |
 | ---------- | ------------ |
-| 90         | 2s           |
-| 95         | 4s           |
-| 99         | 8s           |
+| 84         | 2s           |
+| 98         | 4s           |
 
 ---
 
