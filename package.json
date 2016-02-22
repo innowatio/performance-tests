@@ -32,6 +32,7 @@
     "asteroid": "^2.0.1",
     "babel-polyfill": "^6.5.0",
     "bluebird": "^3.3.1",
+    "dotenv": "^2.0.0",
     "pfmt": "^1.0.9",
     "pm2": "^1.0.1"
   }
