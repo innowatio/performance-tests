@@ -99,6 +99,8 @@
 
 #### Step backend
 
+* L'app si connette al server
+* L'app effettua il login (a partire da un token precedentemente salvato)
 * L'app si sottoscrive alle seguenti publication:
   * users
   * sites

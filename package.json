@@ -1,0 +1,38 @@
+{
+  "name": "performance-tests",
+  "version": "1.0.0",
+  "description": "Stress test iwwa-back",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "clean": "rimraf lib coverage",
+    "premeasure": "npm run clean && npm run build",
+    "measure": "pfmt measure -c lib/pfmt.config.js -d lib/measurement-scenarios -i 100",
+    "analyse": "pfmt analyse",
+    "prestress": "npm run clean && npm run build",
+    "stress": "pm2 --no-daemon start ecosystem.json",
+    "lint": "eslint src test"
+  },
+  "author": "Team Wattellina <wattellina@mondora.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/innowatio/performance-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/innowatio/performance-tests/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-eslint": "^5.0.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^1.10.3"
+  },
+  "dependencies": {
+    "asteroid": "^2.0.1",
+    "babel-polyfill": "^6.5.0",
+    "bluebird": "^3.3.1",
+    "pfmt": "^1.0.9",
+    "pm2": "^1.0.1"
+  }
+}
