@@ -4,6 +4,6 @@
         "script": "pfmt",
         "instances": 0,
         "exec_mode": "cluster_mode",
-        "args": ["stress", "-c", "lib/pfmt.config.js", "-d", "lib/stress-scenarios", "-s", "100"],
+        "args": ["stress", "-c", "lib/pfmt.config.js", "-d", "lib/stress-scenarios", "-s", "100"]
     }]
 }
