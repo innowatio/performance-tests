@@ -2,6 +2,8 @@
 
 > Test eseguiti da istanza t1.micro
 
+---
+
 | Tipo istanza | Numero istanze | Utenti concorrenti |
 | ------------ | -------------- | ------------------ |
 | m4.large     | 1              | 0 + 1              |
@@ -71,6 +73,18 @@
 | login         | 268    | 897    | 144   | 198  | 1095 | 36   |
 | login+storico | 975    | 1731   | 682   | 413  | 3116 | 324  |
 | storico       | 690    | 1091   | 506   | 215  | 1187 | 287  |
+
+---
+
+| Tipo istanza | Numero istanze | Utenti concorrenti |
+| ------------ | -------------- | ------------------ |
+| m4.large     | 10             | 500 + 1            |
+
+| Scenario      | 84th % | 98th % | Media | SD   | Max  | Min  |
+| --------      | ------ | ------ | ----- | ---- | ---  | ---  |
+| login         | 353    | 1252   | 178   | 293  | 2022 | 35   |
+| login+storico | 1017   | 1587   | 697   | 366  | 2524 | 318  |
+| storico       | 637    | 1010   | 473   | 180  | 1173 | 290  |
 
 ## Progressione
 
