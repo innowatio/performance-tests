@@ -78,6 +78,42 @@
 
 | Tipo istanza | Numero istanze | Utenti concorrenti |
 | ------------ | -------------- | ------------------ |
+| m4.large     | 4 (autoscaled) | 200 + 1            |
+
+| Scenario      | 84th % | 98th % | Media | SD   | Max  | Min  |
+| --------      | ------ | ------ | ----- | ---- | ---  | ---  |
+| login         | 224    | 909    | 143   | 206  | 1256 | 33   |
+| login+storico | 760    | 1639   | 593   | 318  | 2111 | 327  |
+| storico       | 544    | 908    | 420   | 143  | 978  | 290  |
+
+---
+
+| Tipo istanza | Numero istanze | Utenti concorrenti |
+| ------------ | -------------- | ------------------ |
+| m4.large     | 6 (autoscaled) | 300 + 1            |
+
+| Scenario      | 84th % | 98th % | Media | SD   | Max  | Min  |
+| --------      | ------ | ------ | ----- | ---- | ---  | ---  |
+| login         | 176    | 608    | 102   | 131  | 811  | 33   |
+| login+storico | 792    | 1252   | 572   | 239  | 1691 | 328  |
+| storico       | 685    | 914    | 484   | 184  | 1061 | 299  |
+
+---
+
+| Tipo istanza | Numero istanze | Utenti concorrenti |
+| ------------ | -------------- | ------------------ |
+| m4.large     | 8 (autoscaled) | 400 + 1            |
+
+| Scenario      | 84th % | 98th % | Media | SD   | Max  | Min  |
+| --------      | ------ | ------ | ----- | ---- | ---  | ---  |
+| login         | 279    | 842    | 160   | 200  | 1108 | 34   |
+| login+storico | 872    | 1905   | 635   | 338  | 1985 | 331  |
+| storico       | 720    | 1154   | 516   | 226  | 1524 | 299  |
+
+---
+
+| Tipo istanza | Numero istanze | Utenti concorrenti |
+| ------------ | -------------- | ------------------ |
 | m4.large     | 10             | 500 + 1            |
 
 | Scenario      | 84th % | 98th % | Media | SD   | Max  | Min  |
